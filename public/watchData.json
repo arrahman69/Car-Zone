@@ -1,0 +1,275 @@
+[
+  {
+    "id": "W001",
+    "name": "Rolls-Royce La Rose Noire Droptail",
+    "brand": "Rolls-Royce",
+    "price": "320,00000",
+    "currency": "BDT",
+    "type": "Luxury",
+    "features": ["Bespoke Design", "Handcrafted Details", "Limited Edition", "Advanced Technology"],
+    "stock": 1,
+    "image": "https://i.pinimg.com/originals/c5/1d/77/c51d7702303ea9f91a09ad430d80aab0.jpg"
+  },
+  {
+    "id": "W002",
+    "name": "Rolls-Royce Boat Tail",
+    "brand": "Rolls-Royce",
+    "price": "280,00000",
+    "currency": "BDT",
+    "type": "Luxury",
+    "features": ["Yacht-Inspired Design", "Hosting Suite", "Limited Production", "Bespoke Interiors"],
+    "stock": 2,
+    "image": "https://www.hdcarwallpapers.com/download/rolls_royce_boat_tail_2022_4k_8k_2-3840x2160.jpg"
+  },
+  {
+    "id": "W003",
+    "name": "Pagani Zonda HP Barchetta",
+    "brand": "Pagani",
+    "price": "185,00000",
+    "currency": "BDT",
+    "type": "Supercar",
+    "features": ["V12 Engine", "Open-Top Design", "Carbon Fiber Body", "Limited Edition"],
+    "stock": 5,
+    "image": "https://i.ytimg.com/vi/OobBneyLA18/sddefault.jpg"
+  },
+  {
+    "id": "W004",
+    "name": "Bugatti La Voiture Noire",
+    "brand": "Bugatti",
+    "price": "160,00000",
+    "currency": "USD",
+    "type": "Hypercar",
+    "features": ["Quad-Turbo W16 Engine", "Carbon Fiber Body", "One-Off Design", "Luxury Interiors"],
+    "stock": 4,
+    "image": "https://wallpapercave.com/wp/wp4073124.jpg"
+  },
+  {
+    "id": "W005",
+    "name": "Ferrari Daytona SP3",
+    "brand": "Ferrari",
+    "price": "260,00000",
+    "currency": "BDT",
+    "type": "Supercar",
+    "features": ["V12 Engine", "Unique Livery", "Limited Production", "Advanced Aerodynamics"],
+    "stock": 1,
+    "image": "https://w0.peakpx.com/wallpaper/125/756/HD-wallpaper-ferrari-ferrari-daytona-sp3.jpg"
+  },
+  {
+    "id": "W006",
+    "name": "McLaren Sabre",
+    "brand": "McLaren",
+    "price": "350,0000",
+    "currency": "BDT",
+    "type": "Supercar",
+    "features": ["Twin-Turbo V8 Engine", "Aerodynamic Design", "Limited Edition", "Advanced Technology"],
+    "stock": 6,
+    "image": "https://cdna.artstation.com/p/assets/images/images/040/912/186/large/ea09-studio-1.jpg?1630243471"
+  },
+  {
+    "id": "W007",
+    "name": "Aston Martin Victor",
+    "brand": "Aston Martin",
+    "price": 3000000,
+    "currency": "USD",
+    "type": "Supercar",
+    "features": ["V12 Engine", "Manual Transmission", "One-Off Design", "Bespoke Interiors"],
+    "stock": 7,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvT9Br_CaY63hOazaWOvTryBWuaB5APGzHbWKcILYcqlJwrsTTCtgq61Ke4llVzy-wipw&usqp=CAU"
+  },
+  {
+    "id": "W008",
+    "name": "Porsche 911 GT1 Strassenversion",
+    "brand": "Porsche",
+    "price": 1500000,
+    "currency": "USD",
+    "type": "Supercar",
+    "features": ["Turbocharged Engine", "Carbon Fiber Body", "Limited Production", "Racing Heritage"],
+    "stock": 1,
+    "image": "https://pixelz.cc/wp-content/uploads/2018/10/porsche-911-gt1-evolution-uhd-4k-wallpaper.jpg"
+  },
+  {
+    "id": "W009",
+    "name": "Mercedes-Benz 300 SLR Uhlenhaut Coupe",
+    "brand": "Mercedes-Benz",
+    "price": 135000000,
+    "currency": "USD",
+    "type": "Classic",
+    "features": ["Racing Legacy", "Limited Production", "Iconic Design", "Historical Significance"],
+    "stock": 1,
+    "image": "https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcms%2Farticles%2F2025%2F10%2F3218604%2FMercedes_Benz_Vision_Iconic_66d82b4a9e.jpg&w=640&q=90"
+  },
+  {
+    "id": "W010",
+    "name": "Ferrari F40 LM by Michelotto",
+    "brand": "Ferrari",
+    "price": 9500000,
+    "currency": "BDT",
+    "type": "Classic",
+    "features": ["Racing Modifications", "Limited Production", "Turbocharged V8", "Iconic Design"],
+    "stock": 1,
+    "image": "https://c4.wallpaperflare.com/wallpaper/315/15/675/ferrari-ferrari-f40-lm-hd-wallpaper-thumb.jpg"
+  },
+  {
+    "id": "W011",
+    "name": "Ferrari F50",
+    "brand": "Ferrari",
+    "price": 7500000,
+    "currency": "BDT",
+    "type": "Classic",
+    "features": ["V12 Engine", "Convertible Design", "Limited Production", "Iconic Styling"],
+    "stock": 1,
+    "image": "https://www.meritpartners.com/images/vehicles/f50/F50_001.jpg"
+  },
+  {
+    "id": "W012",
+    "name": "LaFerrari Aperta",
+    "brand": "Ferrari",
+    "price": 7000000,
+    "currency": "BDT",
+    "type": "Supercar",
+    "features": ["Hybrid V12 Engine", "Convertible Design", "Limited Production", "Advanced Technology"],
+    "stock": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAkYi0GPlBYYgXaC2FAcSG4du9arL5lwNPTw&s"
+  },
+  {
+    "id": "W013",
+    "name": "Mercedes-Benz W196 R Streamliner",
+    "brand": "Mercedes-Benz",
+    "price": 50000000,
+    "currency": "USD",
+    "type": "Classic",
+    "features": ["Racing Legacy", "Streamlined Design", "Historical Significance", "Limited Production"],
+    "stock": 1,
+    "image": "https://c4.wallpaperflare.com/wallpaper/883/65/230/1954-300slr-benz-mercedes-wallpaper-preview.jpg"
+  },
+  {
+    "id": "W014",
+    "name": "Ford GT40 MkI Road Car",
+    "brand": "Ford",
+    "price": 8500000,
+    "currency": "BDT",
+    "type": "Classic",
+    "features": ["Racing Heritage", "Iconic Design", "Limited Production", "V8 Engine"],
+    "stock": 1,
+    "image": "https://media.ford.com/content/dam/fordmedia/Europe/product%20pictures/Ford%20GT/All-NewFordGT_Innovations_16.jpg"
+  },
+  {
+    "id": "W015",
+    "name": "Porsche 911 GT1 Rennversion",
+    "brand": "Porsche",
+    "price": 9500000,
+    "currency": "BDT",
+    "type": "Classic",
+    "features": ["Racing Modifications", "Turbocharged Engine", "Limited Production", "Iconic Design"],
+    "stock": 1,
+    "image": "https://files.libertycity.net/download/gta5_porsche/thumbs/2021-07/1998-porsche-911-gt1-straenversion-v1-0_1686007738_929381.webp"
+  },
+  {
+    "id": "W016",
+    "name": "Mercedes-Benz 300SLR Uhlenhaut Coupe",
+    "brand": "Mercedes-Benz",
+    "price": 135000000,
+    "currency": "BDT",
+    "type": "Classic",
+    "features": ["Racing Legacy", "Iconic Design", "Limited Production", "Historical Significance"],
+    "stock": 4,
+    "image": "https://w0.peakpx.com/wallpaper/264/655/HD-wallpaper-1954-mercedes-benz-300-sl-gullwing-coupe-inline-6-car.jpg"
+  },
+  {
+  "id": "W025",
+  "name": "BMW i8",
+  "brand": "BMW",
+  "price": 186700,     
+  "currency": "USD",
+  "type": "Hypercar",
+  "features": [
+    "4.4L Twin-Turbo V8 + Electric Motor Hybrid",
+    "748 horsepower",
+    "Futuristic Design",
+    "Limited Production",
+    "Advanced Tech & Luxury Interior"
+  ],
+  "stock": 1,
+  "image": "https://wallpapercave.com/wp/wp12485719.jpg"
+},
+
+  {
+    "id": "W019",
+    "name": "Lamborghini Veneno Roadster",
+    "brand": "Lamborghini",
+    "price": 8800000,
+    "currency": "USD",
+    "type": "Hypercar",
+    "features": ["V12 Engine", "Carbon Fiber Chassis", "Limited Edition", "Aero-Optimized Design"],
+    "stock": 2,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/012/006/049/large/benioff-mahdikhani-lambor-4-final-1.jpg?1532535086"
+  },
+  {
+    "id": "W020",
+    "name": "BMW 3.0 CSL Hommage",
+    "brand": "BMW",
+    "price": 1500000,
+    "currency": "USD",
+    "type": "Sports Car",
+    "features": ["Twin-Turbo Inline-6", "Manual Transmission", "Lightweight Carbon Body", "Limited to 50 Units"],
+    "stock": 2,
+    "image": "https://cdna.artstation.com/p/assets/images/images/002/015/432/4k/benoit-fraylon-bmw-csl-3-0-csl-hommage-r-concept-art-car-by-benoit-fraylon.jpg?1456053031"
+  },
+  {
+    "id": "W021",
+    "name": "Koenigsegg Jesko",
+    "brand": "Koenigsegg",
+    "price": 3500000,
+    "currency": "USD",
+    "type": "Hypercar",
+    "features": ["Twin-Turbo V8", "Top Speed 330+ MPH", "Lightweight Carbon Body", "Active Aerodynamics"],
+    "stock": 1,
+    "image": "https://c4.wallpaperflare.com/wallpaper/250/770/364/koenigsegg-koenigsegg-jesko-car-red-car-sport-car-hd-wallpaper-preview.jpg"
+  },
+  {
+    "id": "W022",
+    "name": "Bentley Mulliner Balacar",
+    "brand": "Bentley",
+    "price": 2100000,
+    "currency": "USD",
+    "type": "Luxury",
+    "features": ["W12 Engine", "Handcrafted Interior", "Limited Edition", "Futuristic Design"],
+    "stock": 2,
+    "image": "https://i.ytimg.com/vi/2TSlQitLVyM/maxresdefault.jpg"
+  },
+  {
+    "id": "W023",
+    "name": "Aston Martin Valkyrie",
+    "brand": "Aston Martin",
+    "price": 3400000,
+    "currency": "USD",
+    "type": "Hypercar",
+    "features": ["Hybrid V12", "F1 Technology", "Carbon Monocoque", "Active Aero System"],
+    "stock": 2,
+    "image": "https://images.hdqwalls.com/wallpapers/aston-martin-valkyrie-2025-pq.jpg"
+  },
+  {
+    "id": "W017",
+    "name": "Ferrari 250 GT Cabriolet Series I by Pinin Farina",
+    "brand": "Ferrari",
+    "price": 6500000,
+    "currency": "BDT",
+    "type": "Classic",
+    "features": ["Classic Styling", "Limited Production", "V12 Engine", "Iconic Design"],
+    "stock": 2,
+    "image": "https://www.motoringresearch.com/wp-content/uploads/2018/07/27_Monterey_Ferrari_2.jpg"
+  },
+  {
+    "id": "W018",
+    "name": "Ferrari 288 GTO",
+    "brand": "Ferrari",
+    "price": 5000000,
+    "currency": "BDT",
+    "type": "Classic",
+    "features": ["Turbocharged V8", "Limited Production", "Iconic Design", "Racing Heritage"],
+    "stock": 5,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/002/496/491/large/lars-gehrt-ferrari-01-posted.jpg?1462427943"
+  }
+]
+
+ 
