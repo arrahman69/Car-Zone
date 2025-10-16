@@ -49,7 +49,7 @@ const WatchDetails = () => {
         <div className="space-y-6">
           <h1 className="text-4xl lg:text-5xl font-extrabold">{watch.name}</h1>
           <p className="text-gray-400 text-lg">{watch.brand}</p>
-          <p className="text-3xl font-bold text-[#fa8703]">
+          <p className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent transition">
             {watch.price} {watch.currency}
           </p>
 
@@ -80,10 +80,10 @@ const WatchDetails = () => {
 
           {/* Buttons */}
           <div className="flex gap-4 pt-4">
-            <button className="flex-1 bg-[#fa8703] text-white py-3 rounded-xl font-bold hover:bg-transparent border border-[#fa8703] transition">
+            <button className="flex-1 bg-pink-500 text-white py-3 rounded-xl font-bold hover:bg-transparent border border-pink-400 transition">
               Add to Cart
             </button>
-            <button className="flex-1 bg-transparent text-[#fa8703] py-3 rounded-xl font-bold border border-[#fa8703] hover:bg-[#fa8703] hover:text-white transition">
+            <button className="flex-1 bg-transparent text-pink-500 py-3 rounded-xl font-bold border border-pink-400 hover:bg-pink-500 hover:text-white transition">
               Buy Now
             </button>
           </div>
@@ -92,7 +92,9 @@ const WatchDetails = () => {
 
       {/* Description Bottom Section */}
       <div className="mt-16 bg-[#1a1a1a]/70 backdrop-blur-md p-8 rounded-2xl shadow-xl">
-        <h2 className="text-2xl font-bold mb-4">Description</h2>
+        <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent transition">
+          Description
+        </h2>
         <p className="text-gray-300 leading-relaxed">
           {watch.description ||
             "Experience timeless craftsmanship with this premium watch, designed for elegance, durability, and modern lifestyle. Perfect for business, sports, and casual wear."}
@@ -101,7 +103,12 @@ const WatchDetails = () => {
 
       {/* Customer Reviews */}
       <div className="mt-16">
-        <h2 className="text-2xl font-bold mb-6">Customer Reviews</h2>
+        <h2 className="text-2xl font-bold mb-6">
+          Customer{" "}
+          <span className="bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent transition">
+            Reviews
+          </span>
+        </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {[...Array(3)].map((_, idx) => (
             <div
@@ -115,7 +122,7 @@ const WatchDetails = () => {
                   <p className="text-sm text-gray-400">Verified Buyer</p>
                 </div>
               </div>
-              <p className="text-yellow-400 text-lg">★★★★★</p>
+              <p className="text-red-500 text-lg">★★★★★</p>
               <p className="text-gray-300 mt-2">
                 "This watch is absolutely amazing. Build quality is top notch
                 and looks very premium!"
@@ -155,7 +162,7 @@ const WatchDetails = () => {
                     className="w-full h-48 object-cover group-hover:scale-110 transition-all duration-500 rounded-2xl mb-4"
                   />
                   <h3 className="font-semibold text-lg">{item.name}</h3>
-                  <p className="text-[#fa8703] font-bold">
+                  <p className="bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent transition font-bold">
                     {item.price} {item.currency}
                   </p>
                 </Link>

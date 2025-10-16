@@ -12,32 +12,36 @@ const Abouts = () => {
           />
         </div>
         <div className="">
-          <p className="uppercase text-xs md:text-sm tracking-widest text-[#fa8703] mb-2">
-            -  Car Zone
+          <p className="uppercase text-xs md:text-sm tracking-widest text-pink-500 mb-2">
+            - Car Zone
           </p>
           <h2 className="text-3xl md:text-5xl font-bold mb-3 bricolage-font">
             We Are More Than <br />{" "}
-            <span className="text-[#fa8703] bricolage-font">A Car Zone Store</span>
+            <span className="bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent bricolage-font">
+              A Car Zone Store
+            </span>
           </h2>
           <p className="text-gray-400 leading-relaxed my-6 text-sm lg:text-base">
-           At Car Zone, we don’t just sell cars—we deliver power, prestige, and perfection. Every vehicle is handpicked to match your lifestyle, passion, and drive for excellence.
+            At Car Zone, we don’t just sell cars—we deliver power, prestige, and
+            perfection. Every vehicle is handpicked to match your lifestyle,
+            passion, and drive for excellence.
           </p>
 
           <div className="space-y-4 mb-10">
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full bg-[#222] flex items-center justify-center text-[#fa8703]">
+              <div className="w-10 h-10 rounded-full bg-[#222] flex items-center justify-center text-pink-500">
                 <i className="ri-check-double-line"></i>
               </div>
               <span className="text-white">Luxury & Sports Cars</span>
             </div>
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full bg-[#222] flex items-center justify-center text-[#fa8703]">
+              <div className="w-10 h-10 rounded-full bg-[#222] flex items-center justify-center text-pink-500">
                 <i className="ri-check-double-line"></i>
               </div>
               <span className="text-white">Classic & Super Cars</span>
             </div>
           </div>
-          <button className="bg-[#fa8703] text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 hover:bg-black transition-colors duration-300 cursor-pointer">
+          <button className="bg-pink-600 text-white px-8 py-4 rounded-full font-medium flex items-center gap-2 hover:bg-pink-700 transition-colors duration-300 cursor-pointer">
             Read More <i className="ri-arrow-right-line"></i>
           </button>
         </div>

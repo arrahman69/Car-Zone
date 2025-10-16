@@ -72,7 +72,7 @@ const Watch = () => {
           <h6 className="uppercase text-sm lg:text-xl text-white bricolage-font">
             - Shop Now
           </h6>
-          <h1 className="text-4xl lg:text-5xl xl:text-8xl font-semibold bricolage-font text-[#fa8703]">
+          <h1 className="text-4xl lg:text-5xl xl:text-8xl font-semibold bricolage-font bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent transition">
             <span className="text-white bricolage-font">Cars </span>Shop
           </h1>
         </div>
@@ -80,24 +80,39 @@ const Watch = () => {
 
       {/* Filter Section */}
       <div className="px-[8%] lg:px-[12%] py-12 text-white">
-        <h3 className="text-3xl font-bold mb-8 text-center">Cars</h3>
+        <h3 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent transition">
+          Cars
+        </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Brand Filter */}
           <div className="bg-[#1a1a1a] rounded-2xl shadow-lg border border-gray-800 p-6">
-            <h4 className="font-semibold mb-4 text-lg text-[#FA8703] border-b border-gray-700 pb-2">
+            <h4 className="font-semibold mb-4 text-lg text-pink-500 border-b border-gray-700 pb-2">
               Brand
             </h4>
             <div className="space-y-3">
-              {["Rolls-Royce","Ferrari", "Lamborghin", "BMW", "Porsche", "Aston Martin","Pagani","Bugatti","McLaren", "Ford","Mercedes-Benz","Koenigsegg","Bentley"
+              {[
+                "Rolls-Royce",
+                "Ferrari",
+                "Lamborghin",
+                "BMW",
+                "Porsche",
+                "Aston Martin",
+                "Pagani",
+                "Bugatti",
+                "McLaren",
+                "Ford",
+                "Mercedes-Benz",
+                "Koenigsegg",
+                "Bentley",
               ].map((brand) => (
                 <label
                   key={brand}
-                  className="flex items-center gap-3 cursor-pointer hover:text-[#FA8703] transition-colors"
+                  className="flex items-center gap-3 cursor-pointer hover:text-pink-500 transition-colors"
                 >
                   <input
                     type="checkbox"
-                    className="w-5 h-5 accent-[#FA8703] rounded-md cursor-pointer"
+                    className="w-5 h-5 accent-pink-600 rounded-md cursor-pointer"
                     onChange={() => handleFilterChange("brand", brand)}
                     checked={filters.brand.includes(brand)}
                   />
@@ -109,18 +124,24 @@ const Watch = () => {
 
           {/* Type Filter */}
           <div className="bg-[#1a1a1a] rounded-2xl shadow-lg border border-gray-800 p-6">
-            <h4 className="font-semibold mb-4 text-lg text-[#FA8703] border-b border-gray-700 pb-2">
+            <h4 className="font-semibold mb-4 text-lg text-pink-500 border-b border-gray-700 pb-2">
               Type
             </h4>
             <div className="space-y-3">
-              {["Luxury car", "Super car", "Classic car","Sports Car","Hyper car"].map((type) => (
+              {[
+                "Luxury car",
+                "Super car",
+                "Classic car",
+                "Sports Car",
+                "Hyper car",
+              ].map((type) => (
                 <label
                   key={type}
-                  className="flex items-center gap-3 cursor-pointer hover:text-[#FA8703] transition-colors"
+                  className="flex items-center gap-3 cursor-pointer hover:text-pink-500 transition-colors"
                 >
                   <input
                     type="checkbox"
-                    className="w-5 h-5 accent-[#FA8703] rounded-md cursor-pointer"
+                    className="w-5 h-5 accent-pink-600 rounded-md cursor-pointer"
                     onChange={() => handleFilterChange("type", type)}
                     checked={filters.type.includes(type)}
                   />
@@ -132,14 +153,14 @@ const Watch = () => {
 
           {/* Price Filter */}
           <div className="bg-[#1a1a1a] rounded-2xl shadow-lg border border-gray-800 p-6">
-            <h4 className="font-semibold mb-4 text-lg text-[#FA8703] border-b border-gray-700 pb-2">
+            <h4 className="font-semibold mb-4 text-lg text-pink-500 border-b border-gray-700 pb-2">
               Price Range
             </h4>
             <div className="flex flex-col gap-4">
               <input
                 type="number"
                 placeholder="Min Price"
-                className="px-4 py-2 rounded-lg bg-[#121212] border border-gray-700 focus:border-[#FA8703] outline-none text-sm md:text-base"
+                className="px-4 py-2 rounded-lg bg-[#121212] border border-gray-700 focus:border-pink-400 outline-none text-sm md:text-base"
                 onChange={(e) =>
                   setFilters((prev) => ({ ...prev, minPrice: e.target.value }))
                 }
@@ -147,7 +168,7 @@ const Watch = () => {
               <input
                 type="number"
                 placeholder="Max Price"
-                className="px-4 py-2 rounded-lg bg-[#121212] border border-gray-700 focus:border-[#FA8703] outline-none text-sm md:text-base"
+                className="px-4 py-2 rounded-lg bg-[#121212] border border-gray-700 focus:border-pink-400  outline-none text-sm md:text-base"
                 onChange={(e) =>
                   setFilters((prev) => ({ ...prev, maxPrice: e.target.value }))
                 }
@@ -173,7 +194,7 @@ const Watch = () => {
                     alt={watch.name}
                     className="h-max w-full object-cover drop-shadow-lg group-hover:scale-110 transition-all duration-500"
                   />
-                  <span className="absolute top-4 left-4 bg-[#FA8703] text-white text-xs px-4 py-1 rounded-full uppercase tracking-wide">
+                  <span className="absolute top-4 left-4 bg-gradient-to-r from-pink-500 to-red-500 transition-all  text-white text-xs px-4 py-1 rounded-full uppercase tracking-wide">
                     {watch.type}
                   </span>
                 </div>
@@ -204,7 +225,7 @@ const Watch = () => {
 
                   <div className="flex justify-between items-center mt-6">
                     <div>
-                      <h4 className="text-2xl md:text-3xl text-[#fa8703] font-bold bricolage-font">
+                      <h4 className="text-2xl md:text-3xl bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent transition font-bold bricolage-font">
                         {watch.price} {watch.currency}
                       </h4>
                       <p className="text-sm text-gray-400">
@@ -217,7 +238,7 @@ const Watch = () => {
                       <button
                         className={`px-5 py-3 text-sm md:text-base rounded-full font-semibold transition-all duration-300 cursor-pointer ${
                           watch.stock > 0
-                            ? "bg-[#FA8703] hover:bg-[#fa8703] text-white"
+                            ? "bg-gradient-to-r from-pink-500 to-red-500 transition-all hover:bg-pink-200 text-white"
                             : "bg-gray-600 text-gray-400 cursor-not-allowed"
                         }`}
                       >

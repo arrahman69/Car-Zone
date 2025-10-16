@@ -27,7 +27,7 @@ const Navbar = () => {
           to="/"
           className="text-2xl md:text-4xl font-bold logo bricolage-font"
         >
-         🚗 Car<span>Zone</span>
+          🚗 Car<span>Zone</span>
         </Link>
 
         {/* Mobile Menu Button */}
@@ -72,7 +72,7 @@ const Navbar = () => {
               to="/watch"
               className="text-base lg:text-lg transition px-4 py-2 lg:px-4 lg:py-0 font-normal bricolage-font"
             >
-            Cars
+              Cars
             </Link>
           </li>
           <li>
@@ -87,11 +87,11 @@ const Navbar = () => {
 
         {/* Right Side */}
         <div className="hidden lg:flex items-center gap-8">
-          <div className="w-10 h-10 rounded-full bg-[#1e1f22] flex items-center justify-center border border-[#fa8703] hover:bg-[#fa8703] hover:text-white text-[#fa8703] transition cursor-pointer shadow-md">
+          <div className="w-10 h-10 rounded-full bg-[#1e1f22] flex items-center justify-center border border-pink-500 hover:bg-pink-500 hover:text-white text-pink-500 transition cursor-pointer shadow-md">
             <FaCartArrowDown className="text-md" />
           </div>
           <div>
-            <button className="bg-[#fa8703] px-6 py-2 rounded-full text-lg font-bold cursor-pointer text-gray-200 border border-[#fa8703] hover:bg-transparent hover:text-white">
+            <button className="bg-pink-500 px-6 py-2 rounded-full text-lg font-bold cursor-pointer text-gray-200 border border-pink-500 hover:bg-transparent hover:text-white">
               Login
             </button>
           </div>

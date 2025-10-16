@@ -1,4 +1,6 @@
-{/* Watches */}
+{
+  /* Watches */
+}
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -21,7 +23,7 @@ const WatchSection = () => {
   return (
     <div className="watch lg:px-[12%] px-[8%] py-[50px] lg:py-[90px]">
       <div className="watch-categories-content text-center mb-10 lg:mb-14">
-        <p className="uppercase  tracking-[5px] mb-2 text-[#fa8703] text-3xl md:text-4xl font-bold">
+        <p className="uppercase  tracking-[5px] mb-2 bg-gradient-to-r from-pink-400 to-red-600 bg-clip-text text-transparent transition text-3xl md:text-4xl font-bold">
           - Cars
         </p>
         <h2 className="text-4xl md:text-5xl font-bold mb-3 text-white bricolage-font ">
@@ -42,7 +44,7 @@ const WatchSection = () => {
                 alt={watch.name}
                 className="h-max w-full object-cover   drop-shadow-lg group-hover:scale-110 transition-all duration-500"
               />
-              <span className="absolute top-4 left-4 bg-[#FA8703] text-white text-xs px-4 py-1 rounded-full uppercase tracking-wide">
+              <span className="absolute top-4 left-4 bg-gradient-to-r from-pink-500 to-red-500 transition-all text-white text-xs px-4 py-1 rounded-full uppercase tracking-wide">
                 {watch.type}
               </span>
             </div>
@@ -71,7 +73,7 @@ const WatchSection = () => {
 
               <div className="flex justify-between items-center mt-6">
                 <div>
-                  <h4 className="text-2xl md:text-3xl text-[#fa8703] font-bold bricolage-font">
+                  <h4 className="text-2xl md:text-3xl bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent transition font-bold bricolage-font">
                     {watch.price} {watch.currency}
                   </h4>
                   <p className="text-sm text-gray-400">
@@ -84,7 +86,7 @@ const WatchSection = () => {
                   <button
                     className={`px-5 py-3 text-sm md:text-base rounded-full font-semibold transition-all duration-300 cursor-pointer ${
                       watch.stock > 0
-                        ? "bg-[#FA8703] hover:bg-[#fa8703] text-white"
+                        ? "bg-gradient-to-r from-pink-500 to-red-500 transition-all  hover:bg-transform  duration-500 ease-in-out group-hover:scale-95 text-white"
                         : "bg-gray-600 text-gray-400 cursor-not-allowed"
                     }`}
                   >

@@ -1,7 +1,7 @@
-import React from 'react'
-import Abouts from '../components/Sections/Abouts'
-import WatchCategoris from '../components/Sections/WatchCategoris'
-import Service from '../components/Sections/Service'
+import React from "react";
+import Abouts from "../components/Sections/Abouts";
+import WatchCategoris from "../components/Sections/WatchCategoris";
+import Service from "../components/Sections/Service";
 
 const About = () => {
   return (
@@ -11,8 +11,8 @@ const About = () => {
           <h6 className="uppercase text-sm lg:text-xl text-white bricolage-font">
             - Car Zone
           </h6>
-          <h1 className="text-4xl lg:text-5xl xl:text-8xl font-semibold bricolage-font text-[#fa8703]">
-            <span className="text-white bricolage-font">About </span>Us
+          <h1 className="text-4xl lg:text-5xl xl:text-8xl font-semibold bricolage-font bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent">
+            <span className="text-white bricolage-font"></span> About Us
           </h1>
         </div>
       </div>
@@ -20,7 +20,7 @@ const About = () => {
       <WatchCategoris />
       <Service />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

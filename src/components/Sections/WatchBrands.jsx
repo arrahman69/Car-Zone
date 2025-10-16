@@ -36,11 +36,11 @@ const WatchBrands = () => {
             <div
               className="h-[140px] w-full md:w-[200px] flex justify-center items-center 
           rounded-2xl bg-gradient-to-br from-[#1c1c1c] to-[#000] 
-          border border-[#222] hover:border-[#fa8703] 
+          border border-[#222] hover:border-pink-500
           transition-all duration-500 cursor-pointer shadow-lg hover:shadow-[#fa8703]/40 group"
             >
               <span
-                className="text-transparent bg-clip-text bg-gradient-to-r from-[#fa8703] to-[#ffb347] 
+                className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-red-500 
             text-2xl md:text-3xl font-extrabold tracking-widest group-hover:scale-91 transition-all duration-500"
               >
                 {brand}

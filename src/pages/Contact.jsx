@@ -31,11 +31,11 @@ const Contact = () => {
       {/* Hero Banner */}
       <div className="banner-section flex justify-center items-center h-[350px] lg:h-[550px]">
         <div className="banner-section-content text-center z-10">
-          <h6 className="uppercase text-sm lg:text-xl text-white bricolage-font">
-            -  Get In Touch
+          <h6 className="uppercase text-sm lg:text-xl bricolage-font bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent transition">
+            - Get In Touch
           </h6>
-          <h1 className="text-4xl lg:text-5xl xl:text-8xl font-semibold bricolage-font text-[#fa8703]">
-            <span className="text-white bricolage-font">Contact </span>Us
+          <h1 className="text-4xl lg:text-5xl xl:text-8xl font-semibold bricolage-font bg-gradient-to-r from-pink-300 to-red-600 bg-clip-text text-transparent transition ">
+            <span className="text-white bricolage-font"> Contact</span> Us
           </h1>
         </div>
       </div>
@@ -46,7 +46,10 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-10">
             <h2 className="text-3xl lg:text-4xl font-bold text-white">
-              Let’s <span className="text-[#fa8703]">Connect</span>
+              Let’s{" "}
+              <span className="bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent transition">
+                Connect
+              </span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed">
               Whether you’re curious about features, a free trial, or even
@@ -56,21 +59,21 @@ const Contact = () => {
             <div className="space-y-6 text-gray-300">
               <div className="flex items-start gap-4">
                 <div className="bg-[#1a1a1a] p-3 rounded-xl">
-                  <i className="fa-solid fa-location-dot text-[#fa8703] text-xl"></i>
+                  <i className="fa-solid fa-location-dot bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent transition text-xl"></i>
                 </div>
                 <p>123 Main Street, Dhaka, Bangladesh</p>
               </div>
               <div className="flex items-start gap-4">
                 <div className="bg-[#1a1a1a] p-3 rounded-xl">
-                  <i className="fa-solid fa-phone text-[#fa8703] text-xl"></i>
+                  <i className="fa-solid fa-phone bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent transition text-xl"></i>
                 </div>
                 <p>+880 123 456 789</p>
               </div>
               <div className="flex items-start gap-4">
                 <div className="bg-[#1a1a1a] p-3 rounded-xl">
-                  <i className="fa-solid fa-envelope text-[#fa8703] text-xl"></i>
+                  <i className="fa-solid fa-envelope bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent transitiontext-xl"></i>
                 </div>
-                <p>support@watchmart.com</p>
+                <p>support@carZone.com</p>
               </div>
             </div>
           </div>
@@ -84,7 +87,7 @@ const Contact = () => {
                 placeholder="Your Name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg bg-black text-white border border-gray-700 focus:border-[#fa8703] focus:ring-2 focus:ring-[#fa8703] outline-none transition"
+                className="w-full px-4 py-3 rounded-lg bg-black text-white border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-red-pink outline-none transition"
                 required
               />
               <input
@@ -93,7 +96,7 @@ const Contact = () => {
                 placeholder="Your Email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg bg-black text-white border border-gray-700 focus:border-[#fa8703] focus:ring-2 focus:ring-[#fa8703] outline-none transition"
+                className="w-full px-4 py-3 rounded-lg bg-black text-white border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-500 outline-none transition"
                 required
               />
               <textarea
@@ -102,12 +105,12 @@ const Contact = () => {
                 placeholder="Your Message"
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg bg-black text-white border border-gray-700 focus:border-[#fa8703] focus:ring-2 focus:ring-[#fa8703] outline-none transition"
+                className="w-full px-4 py-3 rounded-lg bg-black text-white border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-500 outline-none transition"
                 required
               ></textarea>
               <button
                 type="submit"
-                className="bg-[#fa8703] hover:bg-transparent hover:text-[#fa8703] font-bold px-6 py-3 rounded-lg w-full transition border border-[#fa8703] cursor-pointer"
+                className="bg-pink-600 hover:bg-transparent hover:text-pink-600 font-bold px-6 py-3 rounded-lg w-full transition border border-pink-500 cursor-pointer"
               >
                 Send Message
               </button>
@@ -126,7 +129,7 @@ const Contact = () => {
             </p>
             <button
               onClick={() => setShowModal(false)}
-              className="bg-[#fa8703] text-white px-5 py-2 rounded-lg hover:bg-black hover:text-[#fa8703] border border-[#fa8703] transition"
+              className="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-transparent hover:text-red-600 border border-red transition"
             >
               Close
             </button>

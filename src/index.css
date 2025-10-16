@@ -9,7 +9,7 @@
 }
 
 :root {
-  --prim-color: #fa8703;
+  --prim-color: #f6339a;
 
   --section-dark-bg: #1b1b1b;
   --section-light-bg: #222222;
@@ -178,7 +178,7 @@ body {
 /* banner-section */
 .banner-section {
   width: 100%;
-  background-image: url(assets/banner-apple.png);
+  background-image: url(assets/Auto.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
